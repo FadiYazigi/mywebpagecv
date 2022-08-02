@@ -1,0 +1,116 @@
+html {
+    font-family: "Roboto", sans-serif
+}
+.header {
+        background-color: rgb(212, 196, 196);
+        text-align: left;
+        padding: 20px;
+        border-radius: 8px;
+      }
+table, th, td {
+        border: none;
+        text-align: left;
+      }
+      
+table {
+        width: 85%;
+      }
+.image{
+        position: absolute;
+        top: 13px;
+        right: 35px;
+        width: 120px;
+        height: 180px;
+        border: none;
+        box-shadow: 5px 5px rgb(150, 83, 83);
+        border-radius: 8px;
+        flex-direction: row;
+}
+
+.image:hover{
+        width: 125px;
+        height: 185px;
+        transition: 1s;
+
+}
+.mobile {
+        width: 15px;
+        height: 25px;
+        padding-right: 4px;
+}
+.gmail, .linkedin, .address  {
+        width: 30px;
+        height: 30px;
+        padding-right: 4px;
+}
+.column{
+        padding-right: 0px;
+}
+h2 {
+        background-color: gainsboro;
+        border-radius: 4px;
+        padding-left: 10px;
+        text-shadow:1px 1px gray;
+}
+.a{
+        padding-left: 30px;
+        text-align: justify;
+        list-style-type: square;
+}
+.b{
+        padding-left: 45px;
+        text-align: justify;
+        list-style-type: circle;
+}
+.position{
+        border: 1px solid rgb(0, 0, 0);
+        padding-left: 15px;
+        border-radius: 4px;
+        background-color: azure;
+}
+.uni-logo{
+        width: 70px;
+        height: 70px;
+        padding-right: 30px;
+        padding-left: 20px;
+        float: left;      
+}
+
+.uni-logo:hover{
+        width: 80px;
+        height: 80px;
+        transition: 1s;
+}
+
+.BLF-logo{
+        width: 90px;
+        height: 90px;
+        padding-right: 30px;
+        padding-left: 20px;
+        float: left;
+        padding-top: 8px;
+        box-shadow: none;
+}
+.BLF-logo:hover{
+        width: 120px;
+        height: 120px;
+        transition: 1s;
+}
+h1:hover {
+        color: gray;
+        font-size: 35px;
+        transition: 3s;
+        text-shadow:2px 2px black;
+}
+.footer{
+        background-color:  rgb(153, 145, 145);
+        width: 100%;
+        height: 60px;
+        border-radius: 4px;
+        text-align: center;
+        font-weight: bold;
+        color: #F1F1F1;
+        padding-top: 30px;
+        font-size: 10px;
+
+}
