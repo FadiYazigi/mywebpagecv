@@ -23,7 +23,7 @@ table {
         height: 180px;
         border: none;
         box-shadow: 5px 5px rgb(150, 83, 83);
-        border-radius: 8px;
+        border-radius: 100px;
         flex-direction: row;
 }
 
